@@ -1,0 +1,461 @@
+@media screen and (min-width: 1730px){
+	.section-1{
+		padding: 200px 0;
+	}
+}
+
+@media screen and (max-width: 1070px){
+	.header-box .btn-call{
+		display: none;
+	}
+
+	.header-nav{
+		display: none;
+	}
+
+	.burger-menu{
+		display: block;
+	}
+
+	.logo{
+		width: 240px;
+	}
+
+	.fixed-header .header .logo{
+		width: 180px;
+	}
+
+	.fixed-header .header .header-contact-info{
+		padding-right: 0;
+	}
+
+	.header-phone-number{
+		margin: 5px 0 0;
+	}
+
+	.fixed-header .header .header-phone-number{
+		font-size: 1.10rem;		
+	}
+
+	.fixed-header .header .work-time{
+		font-size: .65rem;
+	}
+
+	.popup-img-box{
+		max-width: 750px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.logo{
+		width: 210px;
+	}
+
+	.section-1{
+		background-position: right;
+	}
+
+	.fixed-header .header .logo{
+		width: 180px;
+	}
+
+	.mini-image{
+		width: 50px;
+	}
+
+	.section-about-problems-item{
+		max-width: 48%;
+		flex: 0 0 50%;
+		margin-bottom: 25px;
+	}
+
+	.section-about-problems-item:nth-child(2n){
+		padding-right: 0%;
+	}
+
+	.how-works-image{
+		display: none;
+	}
+
+	.how-works-items{
+		max-width: 100%;
+	}
+
+	.how-works-item{
+		flex: 0 0 50%;
+		max-width: 45%;
+	}
+
+	.inputs-row{
+		flex-wrap: wrap;
+	}
+
+	.input-box{
+		padding: 0;
+		flex-basis: 100%;
+		flex-grow: auto;
+		margin-bottom: 25px;
+	}
+
+	.input-box:last-child{
+		margin-bottom: 0px;
+	}
+
+	.help-desc{
+		text-transform: none;
+	}
+
+	.service-item{
+		flex: 0 0 50%;
+		max-width: 48%;
+	}
+
+	.service-item:nth-child(2n){
+		padding-right: 0;
+	}
+
+	.feature-section{
+		padding-top: 320px;
+		background: url(../img/middleVer.webp) 0 no-repeat #f1f1f3;
+	}
+
+	.feature-box{
+		padding-left: 0;
+	}
+
+	.feature-box > h2 > strong{
+		display: block;
+	}
+
+	.p-info{
+		margin-block-start: 0;
+    	margin-block-end: 10px;
+	}
+
+	.proof-item{
+		max-width: 70%;
+		margin-bottom: 10px;
+	}
+
+	.popup-img-box{
+		max-width: 650px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	body{
+	    font-size: .875rem;
+    	line-height: 1.429;
+	}
+
+	.header{
+		max-height: 300px;
+	}
+
+	.logo{
+		width: 140px;
+	}
+
+	.work-time{
+		font-size: .65rem;
+	}
+
+	.fixed-header .header .logo{
+		width: 135px;
+	}
+
+	.fixed-header .header .header-phone-number{
+		font-size: 1rem;		
+	}
+
+	.fixed-header .header .work-time{
+		font-size: .55rem;
+	}
+
+	h1{
+	    font-size: 1.25rem;
+	}
+
+	.burger-nav{
+		width: 100%;
+	}
+
+	.section-1{
+		padding: 46px 0 70px;
+	}
+
+	.section-1-info{
+		font-size: .75rem;
+    	line-height: 1.25em;
+    	margin-bottom: 30px;
+	}
+
+	.about-box{
+		padding: 25px 0;
+	}
+
+	h2{
+		font-size: 1.25rem;
+    	line-height: 1.2em;
+    	margin-bottom: 0px;
+	}
+
+	.section-about-problems{
+		margin: 28px 0;
+	}	
+
+	.section-about-problems-item{
+		font-size: 16px;
+		line-height: 1.21429em;
+	}
+
+	.head{
+		margin-bottom: 10px;
+	}
+
+	.icon{
+		margin-bottom: 12px;
+	}
+
+	.section-about-info{
+		line-height: 1.21429em;
+	    font-size: .875rem;
+	}
+
+	.section-how-work h2{
+	    font-size: 1.25rem;
+    	line-height: 1.2em;
+	}
+
+	.how-works-desc{
+		padding-left: 40px;
+	}
+
+	.how-works-items{
+		padding-top: 20px;
+	}
+
+	.how-works-item{
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.item-header{
+	    font-size: 15px;
+    	line-height: 1.25em;
+    	text-align: center;
+	}
+
+	.feature-section{
+		padding-top: 280px;
+		background-size: 100%;
+		background-position: top;
+	}
+
+	.feature-section h2{
+	    font-size: 1.25rem;
+    	line-height: 1.2em;
+    	margin-bottom: 20px;
+	}
+
+	.p-block{
+		font-size: .875rem;
+    	line-height: 1.42857em;
+	}
+
+	.send-section{
+		padding: 40px 0;
+	}
+
+	.send-note-hight{
+		font-size: 1.125rem;
+    	line-height: 1.22222em;
+	}
+
+	.send-section h2{
+		font-size: 1.125rem;
+    	line-height: 1.22222em;
+	}
+
+	.input-box{
+		margin-bottom: 14px;
+	}
+
+	.input-box input{
+		font-size: 12px;
+	}
+
+	.submit-row{
+		flex-wrap: wrap;
+	}
+
+	.submit-btn{
+		margin-bottom: 20px;
+	}
+
+	.submit-row-info{
+		font-size: .625rem;
+    	line-height: 1.2em;
+	}
+
+	.help-box{
+		padding-bottom: 40px;
+	}
+
+	.help-box-body{
+		padding-left: 40px;
+	}
+
+	.help-section h2{
+		font-size: 1.25rem;
+    	line-height: 1.2em;
+	}
+
+	.help-items-head{
+		margin-bottom: 21px;
+    	font-size: 18px;
+    	line-height: 1.2222em;
+	}
+
+	.help-desc{
+	    font-size: .875rem;
+    	line-height: 1.21429em;
+	}
+
+	.help-item{
+		display: flex;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom:20px;
+		text-align: left;
+	}
+
+	.help-desc{
+		padding-left: 20px;
+	}
+
+	.help-icon{
+		margin-bottom: 0px;
+	}
+
+	.help-icon > .mini-image{
+		width: 40px;
+	}
+
+	.help-form{
+		padding: 30px 10% 50px;
+	}
+
+	.help-form-note{
+		font-size: .75rem;
+    	line-height: 1.25em;
+    	font-weight: 400;
+    	margin-bottom: 10px;
+	}
+
+	.services-section{
+		padding: 30px 0;
+	}
+
+	.services-h2{
+	font-size: 16px;
+    line-height: 1.25em;
+    margin-bottom: 20px;
+	}
+
+	.services-row{
+		margin: 0px;
+	}
+
+	.services-h2-desc{
+		font-size: 16px;
+	    line-height: 1.25em;
+	}
+
+	.proof-section h2{		
+		font-size: 1.25rem;
+ 	   line-height: 1.2em;
+ 	   margin-bottom: 20px;
+	}
+
+	.contacts-section h2{
+		font-size: 1.25rem;
+ 	   line-height: 1.2em;
+ 	   margin-bottom: 40px;
+	}
+
+	.popup-img-box{
+		max-width: 450px;
+	}
+
+	.contacts-item{
+		margin-bottom: 15px;
+		width: 100%;
+    	justify-content: left;
+	}
+
+	.contacts-item:nth-child(3n+3){
+    	margin-top: 0px;
+	}
+
+	.contacts-box{
+		padding-bottom: 20px;
+	}
+
+	.map-container{
+		height: 450px;
+	}
+
+	.main-informing-box{
+		padding-left: 40px;
+	}
+
+	.main-informing-title{
+		margin-bottom: 10px;
+	}
+
+	.informing-section h2{
+		font-size: 1.25rem;
+    	line-height: 1.2em;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.logo{
+		width: 120px;
+	}
+	.fixed-header .header .logo{
+		width: 70px;
+	}
+
+	.work-time{
+		font-size: .60rem;
+	}
+
+	.header-phone-number{
+		font-size: 1.1rem;
+	}
+
+	.fixed-header .header{
+		padding: 5px 0;
+	}
+
+	.fixed-header .header .header-phone-number{
+		margin-top: 0;
+	}
+
+	.how-works-items{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.feature-section{
+		padding-top: 200px;
+		padding-bottom: 30px;
+	}
+
+	.map-container{
+		height: 300px;
+	}
+}
